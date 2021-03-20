@@ -1,0 +1,7 @@
+// example views/markdown.jade (as referenced by view parameter above):
+
+extends layout
+
+block content    
+    #content
+        != markdownFile.parseContent()
